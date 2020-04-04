@@ -1,12 +1,14 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    rake (13.0.1)
     require_all (3.0.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  rake (~> 13.0, >= 13.0.1)
   require_all
 
 BUNDLED WITH
