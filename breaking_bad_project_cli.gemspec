@@ -1,6 +1,6 @@
 
-lib = File.expand_path("../lib", __FILE__)
-$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+libx = File.expand_path("../lib", __FILE__)
+$LOAD_PATH.unshift(libx) unless $LOAD_PATH.include?(libx)
 require "breaking_bad_project_cli/version"
 
 Gem::Specification.new do |spec|
@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["'Winifred Frierson'"]
   spec.email         = ["'winifred.dykes@hotmail.com'"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.summary       = %q{Write a short summary, because RubyGems requires one.}
+  spec.description   = Write a longer description or delete this line.
   spec.homepage      = "https://www.breakingbadapi.com/api/characters"
   spec.license       = "MIT"
 
