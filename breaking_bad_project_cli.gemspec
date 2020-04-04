@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["'winifred.dykes@hotmail.com'"]
 
   spec.summary       = %q{Write a short summary, because RubyGems requires one.}
-  spec.description   = Write a longer description or delete this line.
+  #spec.description   = %q{Write a longer description or delete this line.}
   spec.homepage      = "https://www.breakingbadapi.com/api/characters"
   spec.license       = "MIT"
 

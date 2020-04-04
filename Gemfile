@@ -6,6 +6,7 @@ source "https://rubygems.org"
 
 gem 'require_all'
 gem 'rake', '~> 13.0', '>= 13.0.1'
+gem 'rubygems-update', '~> 3.1', '>= 3.1.2'
 
 require 'pry'
 require 'rest-client'
