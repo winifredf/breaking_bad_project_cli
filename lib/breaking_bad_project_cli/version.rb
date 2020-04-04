@@ -1,3 +1,3 @@
 module BreakingBadProjectCli
-  VERSION = "0.1.0"
+  VERSION = "13.0.1"
 end
