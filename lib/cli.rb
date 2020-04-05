@@ -4,14 +4,17 @@ class CLI
     API.new.call_api
     puts "Welcome to the Breaking Bad Character Finder!"
     choose_a_character
+    
   end
   
   def choose_a_character
     puts  ""
-    puts  "Choose a character to receive additional information."
+    puts  "Press Enter to view a list of characters."
     input = gets.strip.to_i
-    
     list_characters(input)
+    puts  "Type the number of the character for additional information."
+    input = gets.strip.to_i
+
   end
   
   def list_characters(input)
