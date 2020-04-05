@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 # ```ruby
-# gem 'breaking_bad_project_cli'
+gem 'breaking_bad_project_cli'
 # ```
 
 gem 'require_all'
