@@ -7,6 +7,8 @@ class CLI
   end
   
   def choose_a_character
-    
+    puts  ""
+    puts  "Choose a character to receive additional information."
+    input = gets.strip.to_i
   end
 end
