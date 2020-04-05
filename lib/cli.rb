@@ -10,5 +10,11 @@ class CLI
     puts  ""
     puts  "Choose a character to receive additional information."
     input = gets.strip.to_i
+    
+    list_characters(input)
+  end
+  
+  def list_characters(input)
+    
   end
 end
