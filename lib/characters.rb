@@ -21,4 +21,8 @@ class Character
     @@all
   end
   
+  def self.find
+    self.all
+  end
+  
 end

@@ -14,6 +14,8 @@ class CLI
     list_characters(input)
     puts  "Type the number of the character for additional information."
     input = gets.strip.to_i
+    char = Character.find
+    get_character_details(char)
 
   end
   
@@ -22,4 +24,17 @@ class CLI
       puts  "#{index}. #{char.name}"
     end
   end
+  
+  def get_character_details(input)
+    puts  ""
+    puts  "_________#{}"
+  end
 end
+
+    # @birthday = birthday
+    # @occupation = occupation
+    # @img = img
+    # @status = status
+    # @appearance = appearance
+    # @nickname = nickname
+    # @portrayed = portrayed
