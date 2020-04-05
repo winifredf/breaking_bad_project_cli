@@ -25,7 +25,7 @@ class CLI
     end
   end
   
-  def get_character_details(input)
+  def get_character_details(char)
     puts  ""
     puts  "_________#{}"
   end
