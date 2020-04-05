@@ -2,14 +2,7 @@
 
 require "bundler/setup"
 #require "breaking_bad_project_cli"
-require 'pry'
-require 'rest-client'
-require 'json'
-require_relative '../lib/characters.rb'
-require_relative '../lib/api.rb'
-require_relative '../lib/cli.rb'
 
-CLI.new.call
 
 # You can add fixtures and/or initialization code here to make experimenting
 # with your gem easier. You can also use a different console, if you like.
