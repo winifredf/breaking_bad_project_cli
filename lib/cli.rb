@@ -15,6 +15,8 @@ class CLI
   end
   
   def list_characters(input)
-    
+    Character.all.each.with_index(1) do |char, index|
+      puts  "#{index}. #{char.name}"
+    end
   end
 end
