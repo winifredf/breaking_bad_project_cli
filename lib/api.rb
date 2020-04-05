@@ -1,7 +1,4 @@
-require 'pry'
-require 'rest-client'
-require 'json'
-require_relative 'characters.rb'
+
 
 resp = RestClient.get("https://www.breakingbadapi.com/api/characters")
 characters_hash = JSON.parse(resp.body, symbolize_names:true)
