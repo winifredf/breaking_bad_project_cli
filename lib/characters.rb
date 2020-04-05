@@ -21,8 +21,13 @@ class Character
     @@all
   end
   
-  def self.find()
-    self.all{}
+  
+  def self.find
+    self.all
+  end
+  
+  def self.name
+    self.find
   end
   
 end
