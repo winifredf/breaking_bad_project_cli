@@ -1,4 +1,7 @@
 class CLI
-  API.new
-  puts "My program really works!!!"
+  
+  def call
+    API.new.call_api
+    puts "My program really works!!!"
+  end
 end
