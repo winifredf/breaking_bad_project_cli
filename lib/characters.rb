@@ -20,4 +20,5 @@ class Character
   def self.all
     @@all
   end
+  
 end
