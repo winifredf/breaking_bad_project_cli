@@ -1,10 +1,6 @@
 # BreakingBadProjectCli
 
-This Ruby Gem provides a CLI to view the characters in Breaking Bad via the Breaking Bad API website.  By selecting the number associated with a given character in Breaking Bad, additional character information will be provided.
-
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/breaking_bad_project_cli`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This Ruby Gem provides a CLI to view the characters in the television series, "Breaking Bad," via the Breaking Bad API website.  By selecting the number associated with a given character in the Breaking Bad CLI, additional character information will be provided.
 
 ## Installation
 
