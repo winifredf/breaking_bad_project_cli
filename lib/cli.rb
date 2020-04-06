@@ -14,6 +14,7 @@ class CLI
     puts  "Press Enter to view a list of characters."
     input = gets.strip.to_i
     list_characters
+    
     puts  "Type the number of the character for additional information."
     input = gets.strip.to_i
     char = Character.find
@@ -32,11 +33,8 @@ class CLI
       puts  ""
       puts  "_________#{char.name}____________"
       puts  "#{}"
-      puts  "Birthday: #{char.birthday}"
       puts  "Occupation: #{char.occupation}"
       puts  "img: #{char.img}"
-      puts  "Status: #{char.status}"
-      puts  "appearance: #{char.appearance}"
       puts  "Occupation: #{char.occupation}"
       puts  "Nickname: #{char.nickname}"
       puts  "Portrayed: #{char.portrayed}"
