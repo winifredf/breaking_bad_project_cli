@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["'Winifred Frierson'"]
   spec.email         = ["'Winifred.Frierson@gmail.com'"]
   spec.files         = ["lib/breaking_bad_project_cli.rb", "lib/breaking_bad_project_cli/cli.rb", "lib/breaking_bad_project_cli/api.rb", "lib/breaking_bad_project_cli/characters.rb", "bin/breaking_bad_project_cli_character_finder" 
-  spec.summary       = "All Characters in Breaking Bad"
+  s.summary       = "All Characters in Breaking Bad"
   spec.description   = "Provides details of each character in the Breaking Bad television series"
   spec.homepage      = "https://www.breakingbadapi.com/api/characters"
   spec.license       = "MIT"
@@ -38,7 +38,7 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 2.1.4"
   spec.add_development_dependency "rake", "~> 13.0.1"
-  spec.add_development_dependency "pry", ~> "0.13.0"
+  spec.add_development_dependency "pry"
   spec.add_development_dependency "rest-client", "~> 3.0.8"
   # spec.add_development_dependency "bundler", "~> 2.1.4"
 end

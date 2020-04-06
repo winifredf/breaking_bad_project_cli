@@ -10,7 +10,7 @@ Add this line to your application's Gemfile:
 
 ## Usage
 
-    $ bin/breaking_bad_project_cli_character_finder"
+    $ bin/breaking_bad_project_cli_character_finder
 
 ## Development
 
