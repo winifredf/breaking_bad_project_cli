@@ -38,7 +38,7 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 2.1.4"
   spec.add_development_dependency "rake", "~> 13.0.1"
-  spec.add_development_dependency "pry"
+  spec.add_development_dependency "pry", "~> 0.13.0"
   spec.add_development_dependency "rest-client", "~> 3.0.8"
   # spec.add_development_dependency "bundler", "~> 2.1.4"
 end
