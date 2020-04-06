@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "breaking_bad_project_cli"
   spec.version       = BreakingBadProjectCli::VERSION
   spec.authors       = ["'Winifred Frierson'"]
-  spec.email         = ["'winifred.dykes@hotmail.com'"]
+  spec.email         = ["'Winifred.Frierson@gmail.com'"]
 
   spec.summary       = %q{Write a short summary, because RubyGems requires one.}
   #spec.description   = %q{Write a longer description or delete this line.}
