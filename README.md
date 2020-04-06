@@ -10,7 +10,7 @@ Add this line to your application's Gemfile:
 
 ## Usage
 
-TODO: Write usage instructions here
+    $ bin/breaking_bad_project_cli_character_finder"
 
 ## Development
 
