@@ -14,7 +14,7 @@ class CLI
     puts  "Press Enter to view a list of characters."
     input = gets.strip.to_i
     list_characters
-    
+    puts ""
     puts  "Type the number of the character for additional information."
     input = gets.strip.to_i
     char = Character.find
