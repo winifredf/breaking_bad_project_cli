@@ -6,16 +6,6 @@ This Ruby Gem provides a CLI to view the characters in the television series, "B
 
 Add this line to your application's Gemfile:
 
-```ruby
-gem 'breaking_bad_project_cli'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
     $ gem install breaking_bad_project_cli
 
 ## Usage
