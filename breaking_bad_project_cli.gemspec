@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["'Winifred.Frierson@gmail.com'"]
 
   spec.summary       = "All Characters in Breaking Bad"
-  #spec.description   = %q{Write a longer description or delete this line.}
+  #spec.description   = "Provides details of each character in the Breaking Bad television series"
   spec.homepage      = "https://www.breakingbadapi.com/api/characters"
   spec.license       = "MIT"
 
