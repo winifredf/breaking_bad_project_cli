@@ -1,4 +1,4 @@
-
+require_relative './lib/breaking_bad_project_cli/version'
 libx = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(libx) unless $LOAD_PATH.include?(libx)
 require "breaking_bad_project_cli/version"
@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["'Winifred Frierson'"]
   spec.email         = ["'Winifred.Frierson@gmail.com'"]
 
-  spec.summary       = %q{Write a short summary, because RubyGems requires one.}
+  spec.summary       = "All Characters in Breaking Bad"
   #spec.description   = %q{Write a longer description or delete this line.}
   spec.homepage      = "https://www.breakingbadapi.com/api/characters"
   spec.license       = "MIT"
@@ -39,12 +39,12 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 2.1.4"
   spec.add_development_dependency "rake", "~> 13.0.1"
   spec.add_development_dependency "pry", ~> "0.13.0"
-  spec.add_development_dependency "rest-client", "~> 2.1.4"
-  spec.add_development_dependency "bundler", "~> 2.1.4"
+  spec.add_development_dependency "rest-client", "~> 3.0.8"
+  # spec.add_development_dependency "bundler", "~> 2.1.4"
 end
-require 'pry'
-require 'rest-client'
-require 'json'
-require_relative '../lib/characters.rb'
-require_relative '../lib/api.rb'
-require_relative '../lib/cli.rb'
+# require 'pry'
+# require 'rest-client'
+# require 'json'
+# require_relative '../lib/characters.rb'
+# require_relative '../lib/api.rb'
+# require_relative '../lib/cli.rb'
