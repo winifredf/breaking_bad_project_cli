@@ -1,4 +1,4 @@
-require_relative './lib/breaking_bad_project_cli/version'
+
 libx = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(libx) unless $LOAD_PATH.include?(libx)
 require "breaking_bad_project_cli/version"
@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = BreakingBadProjectCli::VERSION
   spec.authors       = ["'Winifred Frierson'"]
   spec.email         = ["'Winifred.Frierson@gmail.com'"]
-  spec.files         = ["lib/breaking_bad_project_cli.rb", "lib/breaking_bad_project_cli/cli.rb", "lib/breaking_bad_project_cli/api.rb", "lib/breaking_bad_project_cli/characters.rb", "bin/breaking_bad_project_cli_character_finder" 
-  s.summary       = "All Characters in Breaking Bad"
+  spec.files         = ["lib/breaking_bad_project_cli.rb", "lib/breaking_bad_project_cli/cli.rb", "lib/breaking_bad_project_cli/api.rb", "lib/breaking_bad_project_cli/characters.rb", "bin/breaking_bad_project_cli_character_finder"] 
+  spec.summary       = "All Characters in Breaking Bad"
   spec.description   = "Provides details of each character in the Breaking Bad television series"
   spec.homepage      = "https://www.breakingbadapi.com/api/characters"
   spec.license       = "MIT"
