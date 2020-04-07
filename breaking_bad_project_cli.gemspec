@@ -10,13 +10,13 @@ Gem::Specification.new do |spec|
   spec.files         = ["lib/breaking_bad_project_cli.rb", "lib/breaking_bad_project_cli/cli.rb", "lib/breaking_bad_project_cli/api.rb", "lib/breaking_bad_project_cli/characters.rb", "bin/breaking_bad_project_cli_character_finder"] 
   spec.summary       = "All Characters in Breaking Bad"
   spec.description   = "Provides details of each character in the Breaking Bad television series"
-  spec.homepage      = "http://rubygems.org'/api/v1/api_key"
+  spec.homepage      = "https://www.breakingbadapi.com/api/characters"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
   # if spec.respond_to?(:metadata)
-    spec.metadata["allowed_push_host"] = "'http://rubygems.org'"
+    spec.metadata["allowed_push_host"] = "'http://rubygems.org'/api/v1/api_key'"
 
     # spec.metadata["homepage_uri"] = spec.homepage
     # spec.metadata["source_code_uri"] = "https://www.breakingbadapi.com/api/characters"
