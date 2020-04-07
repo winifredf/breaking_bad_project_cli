@@ -29,7 +29,7 @@ class CLI
   end
   
   def get_character_details(char)
-    Character.name.find do |char, name|
+    Character.each do |name|
       puts  ""
       puts  "_________#{char.name}____________"
       puts  "#{}"
