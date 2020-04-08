@@ -22,8 +22,8 @@ class Character
   end
   
   
-  def self.find
-    self.all
+  def self.find(char)
+    self.all[char]
   end
   
   def self.name

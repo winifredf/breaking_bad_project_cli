@@ -15,7 +15,7 @@ class CLI
     puts ""
     puts  "Type the number of the character for additional information."
     input = gets.strip.to_i
-    char = Character.find
+    char = Character.find(input-1)
     get_character_details(char)
 
   end
@@ -28,14 +28,13 @@ class CLI
   
   def get_character_details(char)
       puts  ""
-      Character.find.each do |char|
       puts  "_________#{char.name}____________"
       puts  "#{}"
       puts  "Occupation: #{char.occupation}"
       puts  "img: #{char.img}"
       puts  "Nickname: #{char.nickname}"
       puts  "Portrayed: #{char.portrayed}"
-    end
+    
   end
 
   
