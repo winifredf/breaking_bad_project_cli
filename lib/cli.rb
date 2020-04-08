@@ -1,7 +1,5 @@
 class CLI
   
-  # attr_accessor :char_id, :name, :birthday, :occupation, :img, :status, :appearance, :nickname, :portrayed
-  
   def call
     API.new.call_api
     puts "Welcome to the Breaking Bad Character Finder!"
