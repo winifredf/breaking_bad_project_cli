@@ -42,11 +42,4 @@ class CLI
   
 end
 
-    # @birthday = birthday
-    # @occupation = occupation
-    # @img = img
-    # @status = status
-    # @appearance = appearance
-    # @nickname = nickname
-    # @portrayed = portrayed
-    
+   
