@@ -26,8 +26,4 @@ class Character
     self.all[char]
   end
   
-  # def self.name
-  #   self.find
-  # end
-  
 end
